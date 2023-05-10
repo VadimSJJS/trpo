@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="843.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label layoutX="306.0" layoutY="14.0" text="Лабораторная работа 1">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="73.0" text="Название модели:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="254.0" layoutY="74.0" text="Стоимость:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Label_Cost" layoutX="325.0" layoutY="70.0" prefHeight="26.0" prefWidth="89.0" />
+      <Label layoutX="468.0" layoutY="74.0" text="Тип:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Label_Type" layoutX="496.0" layoutY="70.0" prefHeight="26.0" prefWidth="89.0" />
+      <Label layoutX="218.0" layoutY="107.0" text="Производитель">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="153.0" text="Название производителя:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Label_Name_Producer" layoutX="180.0" layoutY="150.0" prefHeight="26.0" prefWidth="89.0" />
+      <Label layoutX="345.0" layoutY="153.0" text="Страна производителя:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Label_Country_Producer" layoutX="496.0" layoutY="150.0" prefHeight="26.0" prefWidth="89.0" />
+      <Button fx:id="Add_Button" layoutX="211.0" layoutY="200.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="117.0" text="Добавить">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="Label_Model" layoutX="135.0" layoutY="71.0" prefHeight="26.0" prefWidth="89.0" />
+      <Button fx:id="Print_Info" layoutX="21.0" layoutY="239.0" mnemonicParsing="false" text="Вывод данных">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="textArea_Info" layoutX="21.0" layoutY="284.0" prefHeight="200.0" prefWidth="810.0" />
+      <Button fx:id="Remove_Button" layoutX="356.0" layoutY="200.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="117.0" text="Удалить">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="Change_Button" layoutX="502.0" layoutY="200.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="117.0" text="Изменить">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
